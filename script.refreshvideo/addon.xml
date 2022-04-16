@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.refreshvideo" name="Refresh video library listitem" version="1.0.1" provider-name="scott967">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.json" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
+    </requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Refresh video info script</summary>
+        <description lang="en">Script to refresh video library items from nfo files.  Bind to key as builtin Runscript(script.refreshvideo).</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <source>https://github.com/scott967/script.refreshvideo</source>
+        <forum></forum>
+        <email></email>
+    </extension>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+    <news>Initial release</news>
+</addon>
